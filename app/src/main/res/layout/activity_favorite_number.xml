@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,8 +9,11 @@
         android:id="@+id/favorite_number"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFEB3B"
         android:gravity="center"
+        android:textColor="@color/black"
         android:textSize="32sp"
-        android:textColor="@color/black"/>
+        tools:layout_editor_absoluteX="-28dp"
+        tools:layout_editor_absoluteY="278dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

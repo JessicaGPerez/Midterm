@@ -1,5 +1,9 @@
 package com.driuft.androidkotlindebugging.ui
 
+import android.graphics.Color
+import java.util.Random
+
+
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +17,10 @@ class FavoriteNumber : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_favorite_number)
 
-        val number: Int = null!!
+
+        val number: Int = 22
         favoriteNumber.text = "$number"
+        favoriteNumber.text = "Todays lucky number is $number !"
     }
+
 }
